@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
       <div className="flex items-center gap-2 font-mono text-sm text-muted-foreground">
         <Terminal className="h-4 w-4 text-primary" />
-        <span>DEINF_UPV © {new Date().getFullYear()}</span>
+        <span>DEETSINF_UPV © {new Date().getFullYear()}</span>
       </div>
       <p className="font-mono text-xs text-muted-foreground">
         Delegación de Estudiantes · Ingeniería Informática · UPV
