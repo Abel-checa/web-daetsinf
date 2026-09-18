@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container flex h-16 items-center justify-between">
         <a href="#inicio" className="flex items-center gap-2 font-mono text-lg font-bold text-primary text-glow-green">
           <Terminal className="h-5 w-5" />
-          <span>DEINF_UPV</span>
+          <span>DEETSINF_UPV</span>
           <span className="animate-blink text-primary">_</span>
         </a>
 
