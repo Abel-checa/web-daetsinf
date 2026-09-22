@@ -1,4 +1,4 @@
-import { getDatabase } from '../../src/lib/db.js';
+/*import { getDatabase } from '../../src/lib/db.js';
 
 interface TestItem {
   name: string;
@@ -26,3 +26,4 @@ async function test() {
 }
 
 test();
+*/
