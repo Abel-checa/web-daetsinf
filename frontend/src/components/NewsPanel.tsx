@@ -1,206 +1,97 @@
-/*import { useEffect, useState } from "react";
+import { useRef } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-interface NewsItem {
-  id: string;
-  title: string;
-  date: string;
-  description: string;
-  type: string;
-}
-
-const ROTATE_INTERVAL_MS = 5000;
-
-export default function NewsPanel() {
-  const [news, setNews] = useState<NewsItem[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  // 1. Cargar noticias desde Supabase al montar el componente
-  useEffect(() => {
-    async function fetchNews() {
-      const { data, error } = await supabase
-        .from("news")
-        .select("*")
-        .order("date", { ascending: false });
-
-      if (error) {
-        console.error("Error cargando noticias:", error.message);
-      } else {
-        setNews(data ?? []);
-      }
-      setLoading(false);
-    }
-
-    fetchNews();
-  }, []);
-
-  // 2. Rotar automáticamente cada 5 segundos si hay más de una noticia
-  useEffect(() => {
-    if (news.length <= 1) return;
-
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % news.length);
-    }, ROTATE_INTERVAL_MS);
-
-    return () => clearInterval(interval);
-  }, [news]);
-
-  if (loading) {
-    return (
-      <div className="w-full max-w-xl mx-auto p-6 text-center text-gray-400">
-        Cargando noticias...
-      </div>
-    );
-  }
-
-  if (news.length === 0) {
-    return (
-      <div className="w-full max-w-xl mx-auto p-6 text-center text-gray-500 border rounded-lg">
-        No hay noticias
-      </div>
-    );
-  }
-
-  const current = news[currentIndex];
-
-  return (
-    <div className="w-full max-w-xl mx-auto p-6 border rounded-lg shadow-sm transition-opacity duration-500">
-      <div className="flex items-center justify-between mb-2">
-        <span className="text-xs font-semibold uppercase tracking-wide text-blue-600">
-          {current.type}
-        </span>
-        <span className="text-xs text-gray-400">
-          {new Date(current.date).toLocaleDateString("es-ES", {
-            day: "numeric",
-            month: "long",
-            year: "numeric",
-          })}
-        </span>
-      </div>
-
-      <h3 className="text-lg font-bold mb-2">{current.title}</h3>
-      <p className="text-sm text-gray-600">{current.description}</p>
-
-      {/* Indicadores de posición (puntitos) }
-      {news.length > 1 && (
-        <div className="flex justify-center gap-1.5 mt-4">
-          {news.map((_, i) => (
-            <span
-              key={i}
-              className={`h-1.5 w-1.5 rounded-full transition-colors ${
-                i === currentIndex ? "bg-blue-600" : "bg-gray-300"
-              }`}
-            />
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-*//////////////////////////////////////////////////////
-
-import { useEffect, useState } from "react";
-
-interface NewsItem {
+interface Noticia {
   _id: string;
   titulo: string;
   descripcion: string;
-  createdAt?: string;
-  type?: string;
+  tipo?: string;
+  createdAt: string;
 }
 
-const ROTATE_INTERVAL_MS = 5000;
+interface NewsCarouselProps {
+  noticias: Noticia[];
+}
 
-export default function NewsPanel() {
-  const [news, setNews] = useState<NewsItem[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [currentIndex, setCurrentIndex] = useState(0);
+export default function NewsCarousel({ noticias }: NewsCarouselProps) {
+  const scrollRef = useRef<HTMLDivElement>(null);
 
-  // 1. Cargar noticias desde tu Backend de Node/MongoDB
-  useEffect(() => {
-    async function fetchNews() {
-      try {
-        const response = await fetch("http://localhost:4000/api/noticias");
-        if (!response.ok) {
-          throw new Error("Respuesta incorrecta del servidor");
-        }
-        const data = await response.json();
-        setNews(data ?? []);
-      } catch (error) {
-        console.error("Error cargando noticias:", error);
-      } finally {
-        setLoading(false);
-      }
+  // Función para desplazar a la izquierda o derecha
+  const scroll = (direction: "left" | "right") => {
+    if (scrollRef.current) {
+      const scrollAmount = 360; // Desplazamiento aproximado al ancho de una tarjeta + gap
+      scrollRef.current.scrollBy({
+        left: direction === "left" ? -scrollAmount : scrollAmount,
+        behavior: "smooth",
+      });
     }
-
-    fetchNews();
-  }, []);
-
-  // 2. Rotar automáticamente cada 5 segundos si hay más de una noticia
-  useEffect(() => {
-    if (news.length <= 1) return;
-
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % news.length);
-    }, ROTATE_INTERVAL_MS);
-
-    return () => clearInterval(interval);
-  }, [news]);
-
-  // Pantalla de carga
-  if (loading) {
-    return (
-      <div className="w-full max-w-xl mx-auto p-6 text-center text-gray-400">
-        Cargando noticias...
-      </div>
-    );
-  }
-
-  // 1. En caso de que NO haya noticias: cartel informativo
-  if (news.length === 0) {
-    return (
-      <div className="w-full max-w-xl mx-auto p-6 text-center text-gray-500 border rounded-lg bg-gray-50/50">
-        No hay noticias
-      </div>
-    );
-  }
-
-  // 2. Si SÍ hay noticias: coger la información y presentarla
-  const current = news[currentIndex];
+  };
 
   return (
-    <div className="w-full max-w-xl mx-auto p-6 border rounded-lg shadow-sm transition-opacity duration-500">
-      <div className="flex items-center justify-between mb-2">
-        <span className="text-xs font-semibold uppercase tracking-wide text-blue-600">
-          {current.type || "Aviso"}
-        </span>
-        <span className="text-xs text-gray-400">
-          {current.createdAt
-            ? new Date(current.createdAt).toLocaleDateString("es-ES", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              })
-            : ""}
-        </span>
+    <div className="relative w-full">
+      {/* Controles del Carrusel (Flechas en la esquina superior) */}
+      <div className="flex justify-end gap-2 mb-4">
+        <button
+          onClick={() => scroll("left")}
+          aria-label="Noticia anterior"
+          className="p-2 rounded-lg border border-border bg-card/40 text-muted-foreground hover:text-foreground hover:border-primary/40 transition-colors"
+        >
+          <ChevronLeft className="h-4 w-4" />
+        </button>
+        <button
+          onClick={() => scroll("right")}
+          aria-label="Siguiente noticia"
+          className="p-2 rounded-lg border border-border bg-card/40 text-muted-foreground hover:text-foreground hover:border-primary/40 transition-colors"
+        >
+          <ChevronRight className="h-4 w-4" />
+        </button>
       </div>
 
-      <h3 className="text-lg font-bold mb-2">{current.titulo}</h3>
-      <p className="text-sm text-gray-600">{current.descripcion}</p>
+      {/* Contenedor desplazable horizontalmente */}
+      <div
+        ref={scrollRef}
+        className="flex gap-4 overflow-x-auto pb-4 pt-1 snap-x snap-mandatory scroll-smooth no-scrollbar"
+        style={{
+          scrollbarWidth: "none", // Oculta barra en Firefox
+          msOverflowStyle: "none", // Oculta barra en IE/Edge
+        }}
+      >
+        {noticias.map((item) => (
+          <article
+            key={item._id}
+            className="w-[300px] sm:w-[340px] shrink-0 snap-start rounded-lg border border-border bg-card/30 backdrop-blur-sm p-6 flex flex-col justify-between hover:border-primary/40 transition-all duration-300 group"
+          >
+            <div>
+              {/* Badge de tipo y fecha */}
+              <div className="flex items-center justify-between gap-2 mb-3">
+                <span className="font-mono text-[10px] font-semibold px-2 py-0.5 rounded border border-primary/30 bg-primary/10 text-primary uppercase">
+                  {item.tipo || "INFO"}
+                </span>
+                <span className="font-mono text-[11px] text-muted-foreground">
+                  {new Date(item.createdAt).toLocaleDateString("es-ES", {
+                    day: "2-digit",
+                    month: "short",
+                  })}
+                </span>
+              </div>
 
-      {/* Indicadores de posición (puntitos) */}
-      {news.length > 1 && (
-        <div className="flex justify-center gap-1.5 mt-4">
-          {news.map((_, i) => (
-            <span
-              key={i}
-              className={`h-1.5 w-1.5 rounded-full transition-colors ${
-                i === currentIndex ? "bg-blue-600" : "bg-gray-300"
-              }`}
-            />
-          ))}
-        </div>
-      )}
+              {/* Título */}
+              <h3 className="font-mono font-bold text-foreground text-base group-hover:text-primary transition-colors line-clamp-2 mb-2">
+                {item.titulo}
+              </h3>
+
+              {/* Descripción */}
+              <p className="text-xs text-muted-foreground line-clamp-3 leading-relaxed">
+                {item.descripcion}
+              </p>
+            </div>
+
+            <div className="mt-4 pt-3 border-t border-border/50 flex justify-between items-center text-xs font-mono text-secondary">
+              <span>Leer más →</span>
+            </div>
+          </article>
+        ))}
+      </div>
     </div>
   );
 }

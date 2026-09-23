@@ -2,3 +2,7 @@
 --> Generar Interfaz de creacion de equipo y noticias con inicio de sesion 
 --> Crear tabla de usuarios--> usuario admin 
 --> completar funciones de inicio de sesion
+
+
+
+-- delegado, secretario, tesorero, cordinadores(6)
