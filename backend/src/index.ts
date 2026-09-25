@@ -291,6 +291,7 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
 
           await mongoose.connection.db?.collection('Noticias').insertOne(nuevaNoticia);
 
+          
           res.writeHead(201, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify({ mensaje: 'Noticia guardada con éxito' }));
         } catch (parseError) {

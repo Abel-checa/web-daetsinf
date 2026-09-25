@@ -1,8 +1,1 @@
---> Instalar mongoose, mas declarar modelo y funciones de creacion
---> Generar Interfaz de creacion de equipo y noticias con inicio de sesion 
---> Crear tabla de usuarios--> usuario admin 
---> completar funciones de inicio de sesion
-
-
-
--- delegado, secretario, tesorero, cordinadores(6)
+-- añadir al formulario de noticias duracion de la noticia 
