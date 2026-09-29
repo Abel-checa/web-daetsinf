@@ -20,7 +20,7 @@ try {
   console.log('No se pudo leer la carpeta backend:', e);
 }
 
-// Cargar variables
+// Cargar variables de entorno
 const dotenvResult = dotenv.config({ path: envPath });
 if (dotenvResult.error) {
   console.log('Error al cargar con dotenv:', dotenvResult.error);
@@ -42,6 +42,12 @@ if (!MONGO_URI) {
       dbName: 'web_etsinf',
     });
     console.log('✅ Conectado exitosamente a MongoDB Atlas (web_etsinf)');
+
+    // Índice TTL automático: purga la noticia cuando expire_date <= ahora
+    await mongoose.connection.db
+      ?.collection('Noticias')
+      .createIndex({ expire_date: 1 }, { expireAfterSeconds: 0 });
+    console.log('⚡ Índice TTL para expire_date verificado en MongoDB');
   } catch (error) {
     console.error('❌ Error conectando a MongoDB Atlas:', error);
   }
@@ -65,12 +71,19 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
 
   console.log(`📡 [${req.method}] ${pathname}`);
 
-  // Endpoint 1: Noticias (Público)
+  // Endpoint 1: Noticias (Público) -> Excluye noticias caducadas
   if (pathname === '/api/noticias' && req.method === 'GET') {
     try {
+      const ahora = new Date();
       const noticias = await mongoose.connection.db
         ?.collection('Noticias')
-        .find({})
+        .find({
+          $or: [
+            { expire_date: { $exists: false } },
+            { expire_date: null },
+            { expire_date: { $gt: ahora } },
+          ],
+        })
         .sort({ createdAt: -1 })
         .toArray();
 
@@ -105,7 +118,7 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
     }
   }
 
-  // Endpoint 3: GET /api/add_noticia -> Login y formulario web
+  // Endpoint 3: GET /api/add_noticia -> Formulario web con Basic Auth y fecha de caducidad
   if (pathname === '/api/add_noticia' && req.method === 'GET') {
     const authHeader = req.headers['authorization'];
 
@@ -166,10 +179,10 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
           <div class="mb-6">
             <span class="text-xs text-secondary tracking-widest uppercase">// Panel de Publicación</span>
             <h1 class="text-2xl font-bold mt-1 text-foreground">Nueva Noticia<span class="text-primary">.</span></h1>
-            <p class="text-xs text-muted mt-1">Completa los campos para guardarla en la base de datos.</p>
+            <p class="text-xs text-muted mt-1">Completa los campos. Las noticias con caducidad se eliminan automáticamente.</p>
           </div>
 
-          <form id="newsForm" class="space-y-5">
+          <form id="newsForm" class="space-y-4">
             <div>
               <label class="block text-xs font-semibold uppercase tracking-wider text-muted mb-2">Título de la Noticia</label>
               <input 
@@ -181,17 +194,28 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
               />
             </div>
 
-            <div>
-              <label class="block text-xs font-semibold uppercase tracking-wider text-muted mb-2">Tipo / Categoría</label>
-              <select 
-                id="tipo"
-                class="w-full bg-background/80 border border-border rounded-lg px-4 py-2.5 text-sm text-foreground focus:outline-none focus:border-primary/60 transition-colors"
-              >
-                <option value="INFO">INFO</option>
-                <option value="ACADÉMICO">ACADÉMICO</option>
-                <option value="EVENTO">EVENTO</option>
-                <option value="DELEGACIÓN">DELEGACIÓN</option>
-              </select>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-muted mb-2">Tipo / Categoría</label>
+                <select 
+                  id="tipo"
+                  class="w-full bg-background/80 border border-border rounded-lg px-4 py-2.5 text-sm text-foreground focus:outline-none focus:border-primary/60 transition-colors"
+                >
+                  <option value="INFO">INFO</option>
+                  <option value="ACADÉMICO">ACADÉMICO</option>
+                  <option value="EVENTO">EVENTO</option>
+                  <option value="DELEGACIÓN">DELEGACIÓN</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-muted mb-2">Caducidad (Opcional)</label>
+                <input 
+                  type="date" 
+                  id="expire_date" 
+                  class="w-full bg-background/80 border border-border rounded-lg px-4 py-2 text-sm text-foreground focus:outline-none focus:border-primary/60 transition-colors [color-scheme:dark]"
+                />
+              </div>
             </div>
 
             <div>
@@ -200,7 +224,7 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
                 id="descripcion" 
                 rows="4" 
                 required 
-                placeholder="Detalla el comunicado o la información de la noticia..."
+                placeholder="Detalla el comunicado o la información..."
                 class="w-full bg-background/80 border border-border rounded-lg px-4 py-2.5 text-sm text-foreground focus:outline-none focus:border-primary/60 transition-colors resize-none"
               ></textarea>
             </div>
@@ -227,10 +251,13 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
             submitBtn.disabled = true;
             submitBtn.innerText = 'Guardando...';
 
+            const expireVal = document.getElementById('expire_date').value;
+
             const payload = {
               titulo: document.getElementById('titulo').value.trim(),
               tipo: document.getElementById('tipo').value,
               descripcion: document.getElementById('descripcion').value.trim(),
+              expire_date: expireVal ? new Date(expireVal + 'T23:59:59').toISOString() : null,
             };
 
             try {
@@ -266,14 +293,14 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
     return;
   }
 
-  // Endpoint 4: POST /api/add_noticia -> Inserción en MongoDB
+  // Endpoint 4: POST /api/add_noticia -> Inserción con expire_date en MongoDB
   if (pathname === '/api/add_noticia' && req.method === 'POST') {
     try {
       let bodyData = '';
       req.on('data', (chunk) => (bodyData += chunk.toString()));
       req.on('end', async () => {
         try {
-          const { titulo, descripcion, tipo } = JSON.parse(bodyData || '{}');
+          const { titulo, descripcion, tipo, expire_date } = JSON.parse(bodyData || '{}');
 
           if (!titulo || !descripcion) {
             res.writeHead(400, { 'Content-Type': 'application/json' });
@@ -281,7 +308,7 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
             return;
           }
 
-          const nuevaNoticia = {
+          const nuevaNoticia: Record<string, any> = {
             titulo,
             descripcion,
             tipo: tipo || 'INFO',
@@ -289,9 +316,12 @@ const server = createServer(async (req: IncomingMessage, res: ServerResponse) =>
             updatedAt: new Date(),
           };
 
+          if (expire_date) {
+            nuevaNoticia.expire_date = new Date(expire_date);
+          }
+
           await mongoose.connection.db?.collection('Noticias').insertOne(nuevaNoticia);
 
-          
           res.writeHead(201, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify({ mensaje: 'Noticia guardada con éxito' }));
         } catch (parseError) {
