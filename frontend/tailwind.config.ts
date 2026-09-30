@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        mono: ["JetBrains Mono", "monospace"],
-        sans: ["Inter", "sans-serif"],
+        mono: ['"DEC Terminal Modern"', 'monospace'],
+        sans: ['"DEC Terminal Modern"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -98,5 +98,7 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [],
 } satisfies Config;
+
+//require("tailwindcss-animate")

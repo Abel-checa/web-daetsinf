@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+@font-face {
+  font-family: 'DEC Terminal Modern';
+  src: url('/fonts/dec-terminal-modern.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'DEC Terminal Modern', monospace;
+}
