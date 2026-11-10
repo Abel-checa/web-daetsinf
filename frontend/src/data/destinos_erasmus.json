@@ -1,0 +1,1667 @@
+[
+  {
+    "id": "147773",
+    "codigoErasmus": "PL LODZ02",
+    "universidad": "POLITECHNIKA LODZKA",
+    "centroDestino": "ddb8d1c0-12dd-414a-96b9-e95f3e1c8e9a - International Cooperation Centre",
+    "pais": "Polonia",
+    "ciudad": "Łódź",
+    "lat": 51.7471,
+    "lng": 19.4538,
+    "idioma": "",
+    "plazas": 2,
+    "duracion": "Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147772",
+    "codigoErasmus": "EE TARTU02",
+    "universidad": "TARTU ÜLIKOOLI",
+    "centroDestino": "ics_ut.ee - Institute of Computer Science",
+    "pais": "Estonia",
+    "ciudad": "Tartu",
+    "lat": 58.378,
+    "lng": 26.729,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia"
+    ]
+  },
+  {
+    "id": "147771",
+    "codigoErasmus": "N BERGEN01",
+    "universidad": "UNIVERSITETET I  BERGEN",
+    "centroDestino": "",
+    "pais": "Noruega",
+    "ciudad": "Bergen",
+    "lat": 60.3885,
+    "lng": 5.3221,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147770",
+    "codigoErasmus": "D STUTTGA01",
+    "universidad": "UNIVERSITÄT STUTTGART",
+    "centroDestino": "05 - Faculty of Computer Science, Electrical Engineering and Information Technology",
+    "pais": "Alemania",
+    "ciudad": "Stuttgart",
+    "lat": 48.7452,
+    "lng": 9.1067,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147769",
+    "codigoErasmus": "D HEIDELB01",
+    "universidad": "RUPRECHT-KARLS-UNIVERSITÄT HEIDELBERG",
+    "centroDestino": "ING - Faculty of Engineering Sciences",
+    "pais": "Alemania",
+    "ciudad": "Heidelberg",
+    "lat": 49.4172,
+    "lng": 8.6724,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147768",
+    "codigoErasmus": "I VERONA01",
+    "universidad": "UNIVERSITÀ DEGLI STUDI DI VERONA",
+    "centroDestino": "300127 - DIPARTIMENTO DI INFORMATICA",
+    "pais": "Italia",
+    "ciudad": "Verona",
+    "lat": 45.4343,
+    "lng": 11.0044,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147767",
+    "codigoErasmus": "I TORINO02",
+    "universidad": "POLITECNICO DI TORINO",
+    "centroDestino": " - POLITECNICO DI TORINO",
+    "pais": "Italia",
+    "ciudad": "Turín",
+    "lat": 45.0633,
+    "lng": 7.6622,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147766",
+    "codigoErasmus": "PL GDANSK02",
+    "universidad": "POLITECHNIKA GDANSKA",
+    "centroDestino": "e3818c2a-9093-4d04-888c-eb3cc7745635 - Faculty of Electronics, Telecommunications and Informatics",
+    "pais": "Polonia",
+    "ciudad": "Gdańsk",
+    "lat": 54.3716,
+    "lng": 18.6186,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147765",
+    "codigoErasmus": "LT KAUNAS02",
+    "universidad": "KAUNO TECHNOLOGIJOS UNIVERSITETAS",
+    "centroDestino": "FI - Faculty of Informatics",
+    "pais": "Lituania",
+    "ciudad": "Kaunas",
+    "lat": 54.9039,
+    "lng": 23.9577,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147764",
+    "codigoErasmus": "PL KRAKOW02",
+    "universidad": "AKADEMIA GÓRNICZO-HUTNICZA",
+    "centroDestino": "240-000 - Faculty of Computer Science",
+    "pais": "Polonia",
+    "ciudad": "Cracovia",
+    "lat": 50.0664,
+    "lng": 19.9192,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147763",
+    "codigoErasmus": "IRLDUBLIN01",
+    "universidad": "UNIVERSITY OF DUBLIN",
+    "centroDestino": "62786f47-de33-4bc6-9d8b-a50fa1b07ed9 - School of Computer Science and Statistics",
+    "pais": "Irlanda",
+    "ciudad": "Dublín",
+    "lat": 53.3438,
+    "lng": -6.2546,
+    "idioma": "Inglés, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147762",
+    "codigoErasmus": "IRLMUNST01",
+    "universidad": "MUNSTER TECHNOLOGICAL UNIVERSITY",
+    "centroDestino": "",
+    "pais": "Irlanda",
+    "ciudad": "Cork",
+    "lat": 51.8853,
+    "lng": -8.534,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147761",
+    "codigoErasmus": "UK CARDIFF05",
+    "universidad": "CARDIFF METROPOLITAN UNIVERSITY",
+    "centroDestino": "",
+    "pais": "Reino Unido",
+    "ciudad": "Cardiff",
+    "lat": 51.4839,
+    "lng": -3.167,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147760",
+    "codigoErasmus": "PL GLIWICE01",
+    "universidad": "POLITECHNIKA SLASKA",
+    "centroDestino": "R - Silesian University of Technology",
+    "pais": "Polonia",
+    "ciudad": "Gliwice",
+    "lat": 50.2945,
+    "lng": 18.6766,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147759",
+    "codigoErasmus": "P LISBOA02",
+    "universidad": "UNIVERSIDADE DE LISBOA",
+    "centroDestino": "36a2d077-360f-4d3f-9b12-4916199fcdb2 - IST Técnico Lisboa",
+    "pais": "Portugal",
+    "ciudad": "Lisboa",
+    "lat": 38.7529,
+    "lng": -9.1565,
+    "idioma": "Inglés, Portugués, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147758",
+    "codigoErasmus": "PL KRAKOW02",
+    "universidad": "AKADEMIA GÓRNICZO-HUTNICZA",
+    "centroDestino": "120-000 - Faculty of Electrical Engineering, Automatics, Computer Science and Biomedical Engineering",
+    "pais": "Polonia",
+    "ciudad": "Cracovia",
+    "lat": 50.0664,
+    "lng": 19.9192,
+    "idioma": "Inglés, ",
+    "plazas": 4,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147757",
+    "codigoErasmus": "B ANTWERP01",
+    "universidad": "UNIVERSITEIT ANTWERPEN",
+    "centroDestino": "TI - Faculty of Applied Engineering",
+    "pais": "Bélgica",
+    "ciudad": "Amberes",
+    "lat": 51.2227,
+    "lng": 4.4107,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147756",
+    "codigoErasmus": "HU BUDAPES01",
+    "universidad": "EÖTVÖS LORÁND TUDOMÁNYEGYETEM",
+    "centroDestino": "e3357be4-41f4-49af-8cf4-88f54206e880 - Faculty of Informatics",
+    "pais": "Hungría",
+    "ciudad": "Budapest",
+    "lat": 47.4733,
+    "lng": 19.0601,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147755",
+    "codigoErasmus": "PL WROCLAW02",
+    "universidad": "POLITECHNIKA WROCLAWSKA",
+    "centroDestino": "3b02d3ba-c5eb-43d3-a549-c235a138d4b5 - Faculty of Information and Communication Technology",
+    "pais": "Polonia",
+    "ciudad": "Breslavia (Wrocław)",
+    "lat": 51.1079,
+    "lng": 17.0617,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147754",
+    "codigoErasmus": "F NANCY43",
+    "universidad": "UNIVERSITE DE LORRAINE",
+    "centroDestino": "NANCY43 - Université de Lorraine",
+    "pais": "Francia",
+    "ciudad": "Nancy",
+    "lat": 48.6978,
+    "lng": 6.1748,
+    "idioma": "Francés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147753",
+    "codigoErasmus": "D KONSTAN01",
+    "universidad": "UNIVERSITÄT KONSTANZ",
+    "centroDestino": "02 - Informatik und Informationswissenschaft",
+    "pais": "Alemania",
+    "ciudad": "Constanza",
+    "lat": 47.6901,
+    "lng": 9.1884,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147752",
+    "codigoErasmus": "S SKOVDE01",
+    "universidad": "HÖGSKOLAN I SKÖVDE",
+    "centroDestino": "4b75ceb4-fc09-4b39-95a2-b2cbcaabd389 - University of Skövde",
+    "pais": "Suecia",
+    "ciudad": "Skövde",
+    "lat": 58.3941,
+    "lng": 13.8548,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147751",
+    "codigoErasmus": "D ROSTOCK01",
+    "universidad": "UNIVERSITÄT ROSTOCK",
+    "centroDestino": "IEF - Fakultät für Informatik und Elektrotechnik",
+    "pais": "Alemania",
+    "ciudad": "Rostock",
+    "lat": 54.0883,
+    "lng": 12.1329,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147750",
+    "codigoErasmus": "S HALMSTA01",
+    "universidad": "HÖGSKOLAN I  HALMSTAD",
+    "centroDestino": "5 - School of Information Technology",
+    "pais": "Suecia",
+    "ciudad": "Halmstad",
+    "lat": 56.6636,
+    "lng": 12.8797,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147749",
+    "codigoErasmus": "A WIEN02",
+    "universidad": "TECHNISCHE UNIVERSITÄT WIEN",
+    "centroDestino": "E180 - Faculty for Computer Science",
+    "pais": "Austria",
+    "ciudad": "Viena",
+    "lat": 48.1989,
+    "lng": 16.3699,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147748",
+    "codigoErasmus": "D KAISERS01",
+    "universidad": "TECHNISCHE UNIVERSITÄT KAISERSLAUTERN",
+    "centroDestino": "INF - Computer Science",
+    "pais": "Alemania",
+    "ciudad": "Kaiserslautern",
+    "lat": 49.4243,
+    "lng": 7.7533,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "156 - Grado en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147747",
+    "codigoErasmus": "LV RIGA02",
+    "universidad": "RIGAS TEHNISKA UNIVERSITATE",
+    "centroDestino": "35742930 - International Mobility Unit",
+    "pais": "Letonia",
+    "ciudad": "Riga",
+    "lat": 56.9507,
+    "lng": 24.0808,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147746",
+    "codigoErasmus": "NL AMSTERD05",
+    "universidad": "HOGESCHOOL VAN AMSTERDAM, UNIVERSITY OF PROFESSIONAL EDUCATION",
+    "centroDestino": "cbd09b26-befa-43e4-978d-e09407ae5bdd - AUAS Faculty of Technology",
+    "pais": "Países Bajos",
+    "ciudad": "Ámsterdam",
+    "lat": 52.359,
+    "lng": 4.908,
+    "idioma": "Inglés, ",
+    "plazas": 3,
+    "duracion": "Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147745",
+    "codigoErasmus": "I SIENA01",
+    "universidad": "UNIVERSITÀ DEGLI STUDI DI SIENA",
+    "centroDestino": "DIISM - INFORMATION ENGINEERING AND MATHEMATICAL SCIENCES",
+    "pais": "Italia",
+    "ciudad": "Siena",
+    "lat": 43.3184,
+    "lng": 11.3317,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147744",
+    "codigoErasmus": "A WIEN20",
+    "universidad": "TECHNIKUM WIEN",
+    "centroDestino": "WIEN20 - FACHHOCHSCHULE TECHNIKUM WIEN",
+    "pais": "Austria",
+    "ciudad": "Viena",
+    "lat": 48.2393,
+    "lng": 16.3773,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147743",
+    "codigoErasmus": "I BOLOGNA01",
+    "universidad": "UNIVERSITÀ DI BOLOGNA",
+    "centroDestino": "795403 - Department of Computer Science and Engineering",
+    "pais": "Italia",
+    "ciudad": "Bolonia",
+    "lat": 44.4968,
+    "lng": 11.3533,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147742",
+    "codigoErasmus": "SF TURKU05",
+    "universidad": "TURUN AMMATTIKORKEAKOULU (TUAS)",
+    "centroDestino": "TURKU05 - TURKU UNIVERSITY OF APPLIED SCIENCES",
+    "pais": "Finlandia",
+    "ciudad": "Turku",
+    "lat": 60.4491,
+    "lng": 22.2933,
+    "idioma": "Inglés, ",
+    "plazas": 1,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147741",
+    "codigoErasmus": "IRLDUBLIN44",
+    "universidad": "TECHNOLOGICAL UNIVERSITY DUBLIN",
+    "centroDestino": "1970 - Faculty of Computing, Digital and Data",
+    "pais": "Irlanda",
+    "ciudad": "Dublín",
+    "lat": 53.3541,
+    "lng": -6.2789,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147740",
+    "codigoErasmus": "CZ BRNO05",
+    "universidad": "MASARYKOVA UNIVERZITA V BRNE",
+    "centroDestino": "X2 - Faculty of Informatics",
+    "pais": "República Checa",
+    "ciudad": "Brno",
+    "lat": 49.1995,
+    "lng": 16.608,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147739",
+    "codigoErasmus": "D MUNCHEN02",
+    "universidad": "TECHNISCHE UNIVERSITÄT MÜNCHEN",
+    "centroDestino": "7 - CIT-Informatics",
+    "pais": "Alemania",
+    "ciudad": "Múnich",
+    "lat": 48.2625,
+    "lng": 11.6679,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147738",
+    "codigoErasmus": "SF HELSINK41",
+    "universidad": "Helsinki Metropolia University of Applied Sciences",
+    "centroDestino": "TECH - Technology",
+    "pais": "Finlandia",
+    "ciudad": "Helsinki",
+    "lat": 60.2243,
+    "lng": 24.855,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147737",
+    "codigoErasmus": "NL EINDHOV17",
+    "universidad": "TECHNISCHE UNIVERSITEIT EINDHOVEN",
+    "centroDestino": "02MC - Department of Mathematics and Computer Science",
+    "pais": "Países Bajos",
+    "ciudad": "Eindhoven",
+    "lat": 51.4486,
+    "lng": 5.4907,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147736",
+    "codigoErasmus": "I SALERNO01",
+    "universidad": "UNIVERSITÀ DEGLI STUDI DI SALERNO",
+    "centroDestino": "DI - COMPUTER SCIENCE",
+    "pais": "Italia",
+    "ciudad": "Salerno / Fisciano",
+    "lat": 40.7719,
+    "lng": 14.7906,
+    "idioma": "Italiano, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147735",
+    "codigoErasmus": "DK LYNGBY01",
+    "universidad": "DANMARKS TEKNISKE UNIVERSITET",
+    "centroDestino": " - SIN CENTRO",
+    "pais": "Dinamarca",
+    "ciudad": "Kongens Lyngby",
+    "lat": 55.7856,
+    "lng": 12.5218,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147734",
+    "codigoErasmus": "DK KOBENHA01",
+    "universidad": "KØBENHAVNS UNIVERSITET",
+    "centroDestino": "",
+    "pais": "Dinamarca",
+    "ciudad": "Copenhague",
+    "lat": 55.6802,
+    "lng": 12.5719,
+    "idioma": "Inglés, ",
+    "plazas": 1,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147733",
+    "codigoErasmus": "D BRANDEN01",
+    "universidad": "TECHNISCHE HOCHSCHULE BRANDENBURG",
+    "centroDestino": "2b8817d5-063f-48ba-8704-4034753865e4 - Department of Computer Science and Media",
+    "pais": "Alemania",
+    "ciudad": "Brandeburgo",
+    "lat": 52.4116,
+    "lng": 12.5372,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147732",
+    "codigoErasmus": "B BRUXEL04",
+    "universidad": "UNIVERSITE LIBRE DE BRUXELLES",
+    "centroDestino": "7 - École polytechnique de Bruxelles",
+    "pais": "Bélgica",
+    "ciudad": "Bruselas",
+    "lat": 50.8132,
+    "lng": 4.3822,
+    "idioma": "Francés, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147731",
+    "codigoErasmus": "B LOUVAIN01",
+    "universidad": "UNIVERSITE CATHOLIQUE DE LOUVAIN",
+    "centroDestino": "B  LOUVAIN01 - UCLouvain",
+    "pais": "Bélgica",
+    "ciudad": "Louvain-la-Neuve",
+    "lat": 50.6698,
+    "lng": 4.6119,
+    "idioma": "Francés, Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147730",
+    "codigoErasmus": "I PISA01",
+    "universidad": "UNIVERSITÀ DI PISA",
+    "centroDestino": "",
+    "pais": "Italia",
+    "ciudad": "Pisa",
+    "lat": 43.7214,
+    "lng": 10.4082,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "206 - Grado en Informática Industrial y Robótica",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147729",
+    "codigoErasmus": "HU BUDAPES02",
+    "universidad": "BUDAPESTI MÛSZAKI ÉS GAZDASAGTUDOMANYI EGYETEM",
+    "centroDestino": "e98de506-f523-42f9-99e3-2a53bfaabf8a - BME FACULTY OF ELECTRICAL ENGINEERING AND INF",
+    "pais": "Hungría",
+    "ciudad": "Budapest",
+    "lat": 47.4813,
+    "lng": 19.0556,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147728",
+    "codigoErasmus": "F ROUEN07",
+    "universidad": "ECOLE SUPERIEURE D`INGENIEURS DE ROUEN (ESIGELEC)",
+    "centroDestino": "ROUEN07 - ESIGELEC",
+    "pais": "Francia",
+    "ciudad": "Ruan (Rouen)",
+    "lat": 49.3831,
+    "lng": 1.0772,
+    "idioma": "Francés, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147727",
+    "codigoErasmus": "F RENNES10",
+    "universidad": "INSTITUT NATIONAL DES SCIENCES APPLIQUEES DE RENNES",
+    "centroDestino": "2 - Informatique/ Computer Science",
+    "pais": "Francia",
+    "ciudad": "Rennes",
+    "lat": 48.1218,
+    "lng": -1.6366,
+    "idioma": "Francés, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147726",
+    "codigoErasmus": "D HEILBRO01",
+    "universidad": "HOCHSCHULE HEILBRONN",
+    "centroDestino": "IT - Informatics",
+    "pais": "Alemania",
+    "ciudad": "Heilbronn",
+    "lat": 49.1224,
+    "lng": 9.2104,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147725",
+    "codigoErasmus": "D BONN01",
+    "universidad": "RHEINISCHE FRIEDRICH-WILHELMS- UNIVERSITÄT BONN",
+    "centroDestino": "50010000 - Faculty of Mathematics and Natural Sciences",
+    "pais": "Alemania",
+    "ciudad": "Bonn",
+    "lat": 50.7277,
+    "lng": 7.1026,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147724",
+    "codigoErasmus": "CZ OSTRAVA01",
+    "universidad": "VYSOKA SKOLA BANSKA",
+    "centroDestino": "FEI - Faculty of Electrical Engineering and Computer Science",
+    "pais": "República Checa",
+    "ciudad": "Ostrava",
+    "lat": 49.8313,
+    "lng": 18.1614,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147723",
+    "codigoErasmus": "I ROMA01",
+    "universidad": "UNIVERSITÀ DEGLI STUDI DI ROMA `LA SAPIENZA`",
+    "centroDestino": "1273 - Dipartimento di Informatica",
+    "pais": "Italia",
+    "ciudad": "Roma",
+    "lat": 41.9026,
+    "lng": 12.5159,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147722",
+    "codigoErasmus": "IS REYKJAV05",
+    "universidad": "HASKÓLINN Í REYKJAVIK",
+    "centroDestino": " - HÁSKÓLINN Í REYKJAVIK",
+    "pais": "Islandia",
+    "ciudad": "Reikiavik",
+    "lat": 64.1238,
+    "lng": -21.9266,
+    "idioma": "Inglés, ",
+    "plazas": 1,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147721",
+    "codigoErasmus": "CZ PRAHA10",
+    "universidad": "CESKÉ VYSOKÉ UCENI TECHNICKÉ V PRAZE",
+    "centroDestino": "18000 - Faculty of Information Technology",
+    "pais": "República Checa",
+    "ciudad": "Praga",
+    "lat": 50.103,
+    "lng": 14.3905,
+    "idioma": "Inglés, ",
+    "plazas": 6,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147720",
+    "codigoErasmus": "N STAVANG01",
+    "universidad": "UNIVERSITET I STAVANGER",
+    "centroDestino": "f94ecaa0-587b-4a11-96a4-7c292522956a - Department of Electrical Engineering and Computer Science",
+    "pais": "Noruega",
+    "ciudad": "Stavanger",
+    "lat": 58.9375,
+    "lng": 5.6987,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147719",
+    "codigoErasmus": "N BERGEN14",
+    "universidad": "HØGSKULEN  PÅ VESTLANDET (HVL)",
+    "centroDestino": "0ff53f28-aba9-4675-8bb3-3ff7705a888b - Department of Computer Science, Electrical En",
+    "pais": "Noruega",
+    "ciudad": "Bergen",
+    "lat": 60.3692,
+    "lng": 5.3508,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147718",
+    "codigoErasmus": "I NAPOLI01",
+    "universidad": "UNIVERSITÀ DEGLI STUDI DI NAPOLI FEDERICO II",
+    "centroDestino": "ac22699d-1bda-4d58-b700-3058b643b8d2 - Department of Electrical and Information Tech",
+    "pais": "Italia",
+    "ciudad": "Nápoles",
+    "lat": 40.8497,
+    "lng": 14.2562,
+    "idioma": "Inglés, ",
+    "plazas": 1,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147717",
+    "codigoErasmus": "I GENOVA01",
+    "universidad": "UNIVERSITÀ DEGLI STUDI DI GENOVA",
+    "centroDestino": "100023 - DEPARTMENT OF INFORMATICS, BIOENGINEERING, ROBOTICS AND SYSTEMS ENGINEERING",
+    "pais": "Italia",
+    "ciudad": "Génova",
+    "lat": 44.4149,
+    "lng": 8.9272,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147716",
+    "codigoErasmus": "I MILANO02",
+    "universidad": "POLITECNICO DI MILANO",
+    "centroDestino": "",
+    "pais": "Italia",
+    "ciudad": "Milán",
+    "lat": 45.4782,
+    "lng": 9.2274,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "206 - Grado en Informática Industrial y Robótica",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147715",
+    "codigoErasmus": "D DRESDEN01",
+    "universidad": "HOCHSCHULE FÜR TECHNIK UND WIRTSCHAFT DRESDEN",
+    "centroDestino": "e79dc75d-8b97-453f-a033-e002ece9fe04 - Faculty of Informatics and Mathematics",
+    "pais": "Alemania",
+    "ciudad": "Dresde",
+    "lat": 51.0347,
+    "lng": 13.7371,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 1,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147714",
+    "codigoErasmus": "PL POZNAN02",
+    "universidad": "POLITECHNIKA POZNANSKA",
+    "centroDestino": " - Faculty of Computing",
+    "pais": "Polonia",
+    "ciudad": "Poznań",
+    "lat": 52.4042,
+    "lng": 16.9498,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147713",
+    "codigoErasmus": "IRLSHANNON02",
+    "universidad": "TECHNOLOGICAL UNIVERSITY OF THE SHANNON: MIDLANDS MIDWEST",
+    "centroDestino": "e16ca967-cbd5-4dbd-b3bd-0b9e34fc0717 - TUS",
+    "pais": "Irlanda",
+    "ciudad": "Athlone / Limerick",
+    "lat": 53.4182,
+    "lng": -7.9056,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147712",
+    "codigoErasmus": "D BERLIN02",
+    "universidad": "TECHNISCHE UNIVERSITÄT BERLIN",
+    "centroDestino": "IV - Faculty IV - Electrical Engineering and Computer Science",
+    "pais": "Alemania",
+    "ciudad": "Berlín",
+    "lat": 52.5119,
+    "lng": 13.3265,
+    "idioma": "Alemán, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147711",
+    "codigoErasmus": "UK BRADFOR01",
+    "universidad": "UNIVERSITY OF BRADFORD",
+    "centroDestino": "",
+    "pais": "Reino Unido",
+    "ciudad": "Bradford",
+    "lat": 53.7915,
+    "lng": -1.7664,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147710",
+    "codigoErasmus": "S STOCKHO04",
+    "universidad": "KUNGL TEKNISKA HÖGSKOLAN",
+    "centroDestino": "EECS - School of Electrical Engineering and Computer Science",
+    "pais": "Suecia",
+    "ciudad": "Estocolmo",
+    "lat": 59.3498,
+    "lng": 18.0707,
+    "idioma": "Inglés, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147709",
+    "codigoErasmus": "N TRONDHE01",
+    "universidad": "NORGES TEKNISK-NATURVITENSKAPELIGE UNIVERSITET NTNU",
+    "centroDestino": " - Faculty of information, Technology, Mathematics and Electrical Engineering",
+    "pais": "Noruega",
+    "ciudad": "Trondheim",
+    "lat": 63.4184,
+    "lng": 10.4024,
+    "idioma": "Inglés, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147708",
+    "codigoErasmus": "LT VILNIUS02",
+    "universidad": "VILNIAUS GEDIMINO TECHNIKOS UNIVERSITETAS (VGTU)",
+    "centroDestino": "FMF - Faculty of Fundamental Sciences",
+    "pais": "Lituania",
+    "ciudad": "Vilna",
+    "lat": 54.7226,
+    "lng": 25.3378,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147707",
+    "codigoErasmus": "NL NIJMEGE01",
+    "universidad": "RADBOUD UNIVERSITEIT NIJMEGEN",
+    "centroDestino": "",
+    "pais": "Países Bajos",
+    "ciudad": "Nimega (Nijmegen)",
+    "lat": 51.8213,
+    "lng": 5.8624,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "206 - Grado en Informática Industrial y Robótica",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147706",
+    "codigoErasmus": "P PORTO02",
+    "universidad": "UNIVERSIDADE DO PORTO",
+    "centroDestino": "FEUP - Faculty of Engineering of the University of Porto",
+    "pais": "Portugal",
+    "ciudad": "Oporto",
+    "lat": 41.178,
+    "lng": -8.5956,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147705",
+    "codigoErasmus": "NL ENSCHED01",
+    "universidad": "UNIVERSITEIT TWENTE",
+    "centroDestino": "EEMCS - Faculty of Electrical Engineering, Mathematics and Computer Science",
+    "pais": "Países Bajos",
+    "ciudad": "Enschede",
+    "lat": 52.241,
+    "lng": 6.8528,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147704",
+    "codigoErasmus": "F LYON12",
+    "universidad": "INSTITUT NATIONAL DES SCIENCES APPLIQUEES DE LYON",
+    "centroDestino": "9 - Informatique",
+    "pais": "Francia",
+    "ciudad": "Lyon (Villeurbanne)",
+    "lat": 45.7828,
+    "lng": 4.8781,
+    "idioma": "Francés, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147703",
+    "codigoErasmus": "UK LEICEST01",
+    "universidad": "UNIVERSITY OF LEICESTER",
+    "centroDestino": "",
+    "pais": "Reino Unido",
+    "ciudad": "Leicester",
+    "lat": 52.6219,
+    "lng": -1.1245,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147702",
+    "codigoErasmus": "SF TURKU02",
+    "universidad": "ÅBO AKADEMI",
+    "centroDestino": "abo - Åbo Akademi University",
+    "pais": "Finlandia",
+    "ciudad": "Turku",
+    "lat": 60.4539,
+    "lng": 22.2785,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "189 - Grado en Ciencia de Datos",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147701",
+    "codigoErasmus": "SF OULU11",
+    "universidad": "OULUN SEUDUN AMMATTIKORKEAKOULU",
+    "centroDestino": "43 - Information Technology",
+    "pais": "Finlandia",
+    "ciudad": "Oulu",
+    "lat": 65.0594,
+    "lng": 25.4663,
+    "idioma": "Inglés, ",
+    "plazas": 1,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147700",
+    "codigoErasmus": "SF ESPOO12",
+    "universidad": "AALTO-YLIOPISTO (AALTO-KORKEAKOULUSÄÄTIÖ)",
+    "centroDestino": "2 - School of Science",
+    "pais": "Finlandia",
+    "ciudad": "Espoo (Helsinki)",
+    "lat": 60.187,
+    "lng": 24.8283,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147699",
+    "codigoErasmus": "S UPPSALA01",
+    "universidad": "UPPSALA UNIVERSITET",
+    "centroDestino": "74 - Department of Information Technology",
+    "pais": "Suecia",
+    "ciudad": "Upsala",
+    "lat": 59.8536,
+    "lng": 17.6277,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147698",
+    "codigoErasmus": "S GOTEBOR02",
+    "universidad": "CHALMERS TEKNISKA HÖGSKOLA",
+    "centroDestino": "4 - D - Computer science and information technology - TKDAT",
+    "pais": "Suecia",
+    "ciudad": "Gotemburgo",
+    "lat": 57.6888,
+    "lng": 11.9782,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147697",
+    "codigoErasmus": "S LINKOPI01",
+    "universidad": "LINKÖPINGS UNIVERSITET",
+    "centroDestino": "3 - Faculty of Science and Engineering",
+    "pais": "Suecia",
+    "ciudad": "Linköping",
+    "lat": 58.3978,
+    "lng": 15.5786,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147696",
+    "codigoErasmus": "PL WARSZAW02",
+    "universidad": "POLITECHNIKA WARSZAWSKA",
+    "centroDestino": "103000 - The Faculty of Electronics and Information Technology",
+    "pais": "Polonia",
+    "ciudad": "Varsovia",
+    "lat": 52.2205,
+    "lng": 21.0102,
+    "idioma": "Inglés, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147695",
+    "codigoErasmus": "P COIMBRA01",
+    "universidad": "UNIVERSIDADE DE COIMBRA",
+    "centroDestino": "",
+    "pais": "Portugal",
+    "ciudad": "Coímbra",
+    "lat": 40.2075,
+    "lng": -8.4264,
+    "idioma": "Inglés, Portugués, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "206 - Grado en Informática Industrial y Robótica",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos"
+    ]
+  },
+  {
+    "id": "147694",
+    "codigoErasmus": "I UDINE01",
+    "universidad": "UNIVERSITÀ DEGLI STUDI DI UDINE",
+    "centroDestino": "DMIF - Department of MATHEMATICS, COMPUTER SCIENCE AND PHYSICS",
+    "pais": "Italia",
+    "ciudad": "Údine",
+    "lat": 46.0637,
+    "lng": 13.2359,
+    "idioma": "Inglés, Italiano, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147693",
+    "codigoErasmus": "F GRENOBL22",
+    "universidad": "INSTITUT NATIONAL POLYTECHNIQUE DE GRENOBLE",
+    "centroDestino": "3 - ENSIMAG",
+    "pais": "Francia",
+    "ciudad": "Grenoble",
+    "lat": 45.1934,
+    "lng": 5.7686,
+    "idioma": "Francés, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2287 - Máster Universitario en Ciberseguridad y Ciberinteligencia",
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147692",
+    "codigoErasmus": "F NANTES80",
+    "universidad": "IMT Atlantique Bretagne-Pays de la Loire École Mines-Télécom",
+    "centroDestino": "NANTES80 - IMT Atlantique",
+    "pais": "Francia",
+    "ciudad": "Nantes / Brest",
+    "lat": 47.2818,
+    "lng": -1.5204,
+    "idioma": "Francés, Inglés, ",
+    "plazas": 2,
+    "duracion": "Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "206 - Grado en Informática Industrial y Robótica"
+    ]
+  },
+  {
+    "id": "147691",
+    "codigoErasmus": "CH LAUSANN13",
+    "universidad": "ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE",
+    "centroDestino": "",
+    "pais": "Suiza",
+    "ciudad": "Lausana",
+    "lat": 46.5191,
+    "lng": 6.5668,
+    "idioma": "Francés, Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  },
+  {
+    "id": "147690",
+    "codigoErasmus": "B GENT01",
+    "universidad": "UNIVERSITEIT GENT",
+    "centroDestino": "TW - Faculty of Engineering and Architecture",
+    "pais": "Bélgica",
+    "ciudad": "Gante",
+    "lat": 51.047,
+    "lng": 3.7275,
+    "idioma": "Inglés, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "189 - Grado en Ciencia de Datos",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas"
+    ]
+  },
+  {
+    "id": "147689",
+    "codigoErasmus": "SI LJUBLJA01",
+    "universidad": "UNIVERZA V LJUBLJANI",
+    "centroDestino": "Faculty of Computer and Information Science - Faculty of Computer and Information Science",
+    "pais": "Eslovenia",
+    "ciudad": "Liubliana",
+    "lat": 46.0504,
+    "lng": 14.5042,
+    "idioma": "Inglés, ",
+    "plazas": 2,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "182 - Doble Titulación. Grado en Ingeniería Informática y Grado en Administración y Dirección de Empresas",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática"
+    ]
+  },
+  {
+    "id": "147688",
+    "codigoErasmus": "D AACHEN01",
+    "universidad": "RHEINISCH-WESTFÄLISCHE TECHNISCHE HOCHSCHULE AACHEN",
+    "centroDestino": "49873418 - Faculty: Computer Science",
+    "pais": "Alemania",
+    "ciudad": "Aquisgrán (Aachen)",
+    "lat": 50.7779,
+    "lng": 6.0778,
+    "idioma": "Alemán, Inglés, ",
+    "plazas": 3,
+    "duracion": "Curso, Semestre A, Semestre B, ",
+    "titulaciones": [
+      "156 - Grado en Ingeniería Informática",
+      "189 - Grado en Ciencia de Datos",
+      "2233 - Máster Universitario en Ingeniería Informática",
+      "209 - Doble Titulación. Grado en Matemáticas y Grado en Ingeniería Informática",
+      "206 - Grado en Informática Industrial y Robótica",
+      "216 - Doble Titulación. Grado en Ciencia de Datos y Grado en Ingeniería en Organización Industrial"
+    ]
+  }
+]
